@@ -10,14 +10,17 @@
    
     `composer install`
     
-- Set application Key
-
-    `php artisan key:generate`
 - Make your Database
+
 - Setting Environment
 
     `cp .env.example .env` 
-    and edit `.env`  according to your previous database.
+    
+    Edit `.env`  according to your previous database.
+    
+- Set application Key
+
+    `php artisan key:generate`
 - Run Migrate & Seeder
 
     `php artisan migrate`
